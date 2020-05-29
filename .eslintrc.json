@@ -1,0 +1,62 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
+    "plugin:testing-library/react",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "jsx-a11y",
+    "import",
+    "html",
+    "jest",
+    "testing-library",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "testing-library/await-async-query": "error",
+    "testing-library/no-await-sync-query": "error",
+    "testing-library/no-debug": "warn",
+    "linebreak-style": ["error", "windows"],
+    "no-tabs": 0,
+    "no-console": 0,
+    "no-unused-expressions": [
+      2,
+      { "allowTaggedTemplates": true, "allowShortCircuit": true }
+    ],
+    "no-unused-vars": [
+      2,
+      { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }
+    ]
+  }
+}
