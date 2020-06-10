@@ -32,4 +32,4 @@ A small project make setting up react develope environment quickly.
 
 **Note:** If you clone the project into your local server, you can use `yarn build:local`, and open your browser then input `http://localhost/{YOUR_PROJECT_NAME}/dist/`, you can preview the production result on local server.
 
-## ...to be continue
+## ...to be continued
